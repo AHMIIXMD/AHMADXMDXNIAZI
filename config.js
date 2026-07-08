@@ -53,7 +53,7 @@ const config = {
     OWNER_NAME: '𝐀͢ͱ꧊ϻ͒͜𝛂͜𝛛🚩',
     OWNER_NUMBER: '923221540695',
     DEV: '923221540695',
-    IK_IMAGE_PATH: './lib/jawadmd.jpg',
+    IK_IMAGE_PATH: './lib/ahmadmd.jpg',
     BOT_IMAGE: 'https://files.catbox.moe/p4xi2g.jpg',
     
     // Newsletter Configuration
