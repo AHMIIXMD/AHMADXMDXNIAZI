@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Quiet Thoughts | Simple Line</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* === peaceful, minimal background without gradients or floating orbs === */
+    body {
+      min-height: 100vh;
+      background: #f2efe7;       /* warm, natural off-white */
+      font-family: system-ui, 'Segoe UI', 'Roboto', 'Times New Roman', serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      /* no fancy animations, no glows, no intricate background layers */
+    }
+
+    /* single card — very quiet, almost invisible, only to frame the line */
+    .quiet-frame {
+      max-width: 880px;
+      width: 100%;
+      background: transparent;    /* no card, no blur, no border illusion */
+      padding: 0;
+      text-align: center;
+      transition: none;
+    }
+
+    /* 
+      THE CORE: just a simple quote line.
+      Always visible. No loading. No buttons. No pair.
+      No Jawad, no MD, no mini bot, no footer branding.
+    */
+    .quote-line {
+      font-size: 2.6rem;
+      line-height: 1.3;
+      font-weight: 430;
+      font-family: 'Georgia', 'Times New Roman', 'Palatino', serif;
+      color: #2c2b28;
+      letter-spacing: -0.01em;
+      text-rendering: optimizeLegibility;
+      word-break: break-word;
+      transition: none;
+      margin: 0;
+      padding: 0.5rem;
+      background: none;
+      border: none;
+      box-shadow: none;
+    }
+
+    /* subtle, soft underline effect just to ground the line visually — no distracting shapes */
+    .gentle-hint {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: #9b9a94;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-weight: 350;
+      letter-spacing: 0.3px;
+      opacity: 0.65;
+      transition: none;
+    }
+
+    /* ensure the container adapts to any screen, always shows only the quote */
+    @media (max-width: 680px) {
+      .quote-line {
+        font-size: 1.9rem;
+        line-height: 1.35;
+      }
+      .gentle-hint {
+        margin-top: 1.5rem;
+        font-size: 0.75rem;
+      }
+    }
+
+    /* ultra-small devices: still perfectly readable, no overflow */
+    @media (max-width: 480px) {
+      .quote-line {
+        font-size: 1.6rem;
+      }
+    }
+
+    /* focus on simplicity: no hover effects that change content, no hidden items */
+    a, button, input, form, .btn, .loader, .card, .glow, .orb, .gradient, .pair, .code, .toast {
+      display: none;
+    }
+
+    /* but we ensure no extraneous elements appear, only text */
+    .no-extra {
+      display: block;
+    }
+
+    /* optional: very subtle selection color for readability */
+    ::selection {
+      background: #e3ddd0;
+      color: #1f1e1c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="quiet-frame">
+  <div class="quote-line">
+    “اِیَّاکَ نَعْبُدُ وَاِیَّاکَ نَسْتَعِیْنُ”
+  </div>
+</div>
+
+
+</body>
+</html>
