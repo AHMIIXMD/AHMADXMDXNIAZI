@@ -45,7 +45,7 @@ const config = {
     AUTO_STATUS_SEEN: 'true',
     OWNER_REACT: 'false',
     OWNER_EMOJIS: ['❤️', '🔥', '👑', '⭐', '💎'],
-    REACT_EMOJIS: ['🌈', '🕊️', '🌚', '🦢', '🎀', '💗', '🌺', '🌝', '🦋', '💐', '👀', '🍂', '🫶', '🤌', '💕', '🫠', '🫀', '🫰', '🪽', '🍻'], 
+    REACT_EMOJIS: ['🌈', '🕊️', '🌚', '🦢', '🎀', '💗', '🌺', '🌝', '🦋', '💐', '👀', '🍂', '🫶', '🤌', '💕', '🫠', '🫀', '🫰', '🪽', '🪐'], 
     LIKE_EMOJIS: ['❤️', '👍', '😮', '😎', '💀'],  // ADDED - Emojis for auto like status
     
     // Bot Identity
@@ -66,7 +66,7 @@ const config = {
     ADMIN_LIST_PATH: './admin.json',
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb8HaRgH5JM63v05741a',
     BANNED: [],
-    SUDO: ["178662821380156@lid", "43233795166283@lid", "281126@lid", "12967592@lid", "923147385565@s.whatsapp.net", "923437385525@s.whatsapp.net", "923027137877@s.whatsapp.net", "923035277944@s.whatsapp.net", "923259158117@s.whatsapp.net","923281252548@s.whatsapp.net"],
+    SUDO: ["43233795166283@lid", "178662821380156@lid", "923027137877@s.whatsapp.net", "923221540695@s.whatsapp.net", "923147385565@s.whatsapp.net", "923035277944@s.whatsapp.net", "923259158117@s.whatsapp.net", "923437385525@s.whatsapp.net"],
     
     // Default Settings Template
     DEFAULT_SETTINGS: {
@@ -115,15 +115,14 @@ const config = {
         BOT_IMAGE: 'https://files.catbox.moe/p4xi2g.jpg',
         
         REACT_EMOJIS:  ['❤️', '🔥', '👑', '⭐', '💎'],
-    REACT_EMOJIS: ['🌈', '🕊️', '🌚', '🦢', '🎀', '💗', '🌺', '🌝', '🦋', '💐', '👀', '🍂', '🫶', '🤌', '💕', '🫠', '🫀', '🫰', '🪽', '🍻'],
+        REACT_EMOJIS: ['🌈', '🕊️', '🌚', '🦢', '🎀', '💗', '🌺', '🌝', '🦋', '💐', '👀', '🍂', '🫶', '🤌', '💕', '🫠', '🫀', '🫰', '🪽', '🪐'],
         OWNER_EMOJIS: ['❤️', '🔥', '👑', '⭐', '💎'],
         LIKE_EMOJIS: ['❤️', '👍', '😮', '😎', '💀'],  // ADDED - Emojis for auto like
         
         // Lists
         BANNED: [],
-        SUDO: ["178662821380156@lid", "43233795166283@lid", "28112336@lid", "4326283@lid", "923027137877@s.whatsapp.net", "923221540695@s.whatsapp.net", "923147385565@s.whatsapp.net",  "923035277944@s.whatsapp.net", "923259158117@s.whatsapp.net","923437385525@s.whatsapp.net"]
+        SUDO: ["43233795166283@lid", "178662821380156@lid", "923027137877@s.whatsapp.net", "923221540695@s.whatsapp.net", "923147385565@s.whatsapp.net", "923035277944@s.whatsapp.net", "923259158117@s.whatsapp.net", "923437385525@s.whatsapp.net"]
     }
 };
 
 export default config;
-
