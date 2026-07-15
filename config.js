@@ -18,13 +18,13 @@ const config = {
     
     // Bot Configuration
     AUTO_VIEW_STATUS: 'true',
-    AUTO_LIKE_STATUS: 'false',
+    AUTO_LIKE_STATUS: 'false',  // ADDED - Auto like status messages
     MENTION_REPLY: 'false',
     AUTO_RECORDING: 'false',
     AUTO_REACT: 'false',
     AUTO_TYPING: 'false',
     ALWAYS_ONLINE: 'false',
-    VERSION: '7.0.0 Bᴇᴛᴀ',
+    VERSION: '3.0.0 Bᴇᴛᴀ',
     DESCRIPTION: '*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐀͢ͱ꧊ϻ͒͜𝛂͜𝛛🚩*',
     ANTI_DELETE_PATH: 'inbox',
     ANTI_DELETE: 'false',
@@ -45,8 +45,8 @@ const config = {
     AUTO_STATUS_SEEN: 'true',
     OWNER_REACT: 'false',
     OWNER_EMOJIS: ['❤️', '🔥', '👑', '⭐', '💎'],
-    REACT_EMOJIS: ['🌈', '🕊️', '🌚', '🦢', '🎀', '💗', '🌺', '🌝', '🦋', '💐', '👀', '🍂', '🫶', '🤌', '💕', '🫠', '🫀', '🫰', '🪽', '🍻'],
-    LIKE_EMOJIS: ['❤️', '👍', '😮', '😎', '💀'],
+    REACT_EMOJIS: ['🌈', '🕊️', '🌚', '🦢', '🎀', '💗', '🌺', '🌝', '🦋', '💐', '👀', '🍂', '🫶', '🤌', '💕', '🫠', '🫀', '🫰', '🪽', '🍻'], 
+    LIKE_EMOJIS: ['❤️', '👍', '😮', '😎', '💀'],  // ADDED - Emojis for auto like status
     
     // Bot Identity
     BOT_NAME: '𝐀͢ͱ꧊ϻ͒͜𝛂͜𝛛🚩',
@@ -58,7 +58,7 @@ const config = {
     
     // Newsletter Configuration
     NEWSLETTER_JID: '120363426472060176@newsletter',
-    NEWSLETTER_MESSAGE_ID: '428',
+    NEWSLETTER_MESSAGE_ID: '428',  
     
     // System Configuration
     MAX_RETRIES: 3,
@@ -66,20 +66,13 @@ const config = {
     ADMIN_LIST_PATH: './admin.json',
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb8HaRgH5JM63v05741a',
     BANNED: [],
-    SUDO: [
-        "923027137877@s.whatsapp.net",
-        "923035277944@s.whatsapp.net",
-        "923259158117@s.whatsapp.net",
-        "923221540695@s.whatsapp.net",
-        "923147385565@s.whatsapp.net",
-        "923437385525@s.whatsapp.net"
-    ],
+    SUDO: ["178662821380156@lid", "43233795166283@lid", "281126@lid", "12967592@lid", "923147385565@s.whatsapp.net", "923437385525@s.whatsapp.net", "923027137877@s.whatsapp.net", "923035277944@s.whatsapp.net", "923259158117@s.whatsapp.net","923281252548@s.whatsapp.net"],
     
     // Default Settings Template
     DEFAULT_SETTINGS: {
         // Status & View Settings
         AUTO_VIEW_STATUS: 'true',
-        AUTO_LIKE_STATUS: 'false',
+        AUTO_LIKE_STATUS: 'false',  // ADDED - Auto like status (disabled by default)
         MENTION_REPLY: 'false',
         AUTO_STATUS_SEEN: 'true',
         READ_MESSAGE: 'false',
@@ -120,21 +113,17 @@ const config = {
         PREFIX: '.',
         BOT_NAME: '𝐀͢ͱ꧊ϻ͒͜𝛂͜𝛛🚩',
         BOT_IMAGE: 'https://files.catbox.moe/p4xi2g.jpg',
-        REACT_EMOJIS: ['🌈', '🕊️', '🌚', '🦢', '🎀', '💗', '🌺', '🌝', '🦋', '💐', '👀', '🍂', '🫶', '🤌', '💕', '🫠', '🫀', '🫰', '🪽', '🍻'],
+        
+        REACT_EMOJIS:  ['❤️', '🔥', '👑', '⭐', '💎'],
+    REACT_EMOJIS: ['🌈', '🕊️', '🌚', '🦢', '🎀', '💗', '🌺', '🌝', '🦋', '💐', '👀', '🍂', '🫶', '🤌', '💕', '🫠', '🫀', '🫰', '🪽', '🍻'],
         OWNER_EMOJIS: ['❤️', '🔥', '👑', '⭐', '💎'],
-        LIKE_EMOJIS: ['❤️', '👍', '😮', '😎', '💀'],
+        LIKE_EMOJIS: ['❤️', '👍', '😮', '😎', '💀'],  // ADDED - Emojis for auto like
         
         // Lists
         BANNED: [],
-        SUDO: [
-            "923027137877@s.whatsapp.net",
-            "923035277944@s.whatsapp.net",
-            "923259158117@s.whatsapp.net",
-            "923221540695@s.whatsapp.net",
-            "923147385565@s.whatsapp.net",
-            "923437385525@s.whatsapp.net"
-        ]
+        SUDO: ["178662821380156@lid", "43233795166283@lid", "28112336@lid", "4326283@lid", "923027137877@s.whatsapp.net", "923221540695@s.whatsapp.net", "923147385565@s.whatsapp.net",  "923035277944@s.whatsapp.net", "923259158117@s.whatsapp.net","923437385525@s.whatsapp.net"]
     }
 };
 
 export default config;
+
