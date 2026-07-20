@@ -1,14 +1,14 @@
 {
-  "name": "𝙃𝘼𝙎𝙎𝘼𝙉-𝙈𝘿",
+  "name": "AHMAD-MD",
   "version": "1.4.0",
   "type": "module",
-  "description": "HASSAN WhatsApp Bot",
+  "description": "AHMAD WhatsApp Bot",
   "main": "index.js",
   "scripts": {
     "start": "node --expose-gc index.js",
     "start:pm2": "pm2 start index.js --node-args='--expose-gc' --deep-monitoring --name AHMAD-MD",
     "stop": "pm2 stop HASSAN-MD",
-    "restart": "pm2 restart HASSAN-MD"
+    "restart": "pm2 restart AHMAD-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "7.0.0-rc13",
