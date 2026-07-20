@@ -25,12 +25,12 @@ const config = {
     AUTO_TYPING: 'false',
     ALWAYS_ONLINE: 'false',
     VERSION: '3.0.0 Bᴇᴛᴀ',
-    DESCRIPTION: '*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐀͢ͱ꧊ϻ͒͜𝛂͜𝛛🚩*',
+    DESCRIPTION: '*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙃𝘼𝙎𝙎𝘼𝙉🚩*',
     ANTI_DELETE_PATH: 'inbox',
     ANTI_DELETE: 'false',
     ANTI_EDIT_PATH: 'inbox',
     ANTI_EDIT: 'false',
-    STICKER_NAME: '𝐀͢ͱ꧊ϻ͒͜𝛂͜𝛛🚩',
+    STICKER_NAME: '𝘼𝙃𝙈𝘼𝘿🚩',
     ANTI_LINK: 'true',
     WELCOME: 'false',
     GOODBYE: 'false',
@@ -49,7 +49,7 @@ const config = {
     LIKE_EMOJIS: ['❤️', '👍', '😮', '😎', '💀'],  // ADDED - Emojis for auto like status
     
     // Bot Identity
-    BOT_NAME: '𝐀͢ͱ꧊ϻ͒͜𝛂͜𝛛🚩',
+    BOT_NAME: '𝙃𝘼𝙎𝙎𝘼𝙉🚩',
     OWNER_NAME: '𝐀͢ͱ꧊ϻ͒͜𝛂͜𝛛🚩',
     OWNER_NUMBER: '923221540695',
     DEV: '923221540695',
@@ -107,11 +107,11 @@ const config = {
         OWNER_NAME: '𝐀͢ͱ꧊ϻ͒͜𝛂͜𝛛🚩',
         OWNER_NUMBER: '923221540695',
         DEV: '923221540695',
-        DESCRIPTION: '*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐀͢ͱ꧊ϻ͒͜𝛂͜𝛛🚩*',
-        STICKER_NAME: '𝐀͢ͱ꧊ϻ͒͜𝛂͜𝛛🚩',
+        DESCRIPTION: '*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙃𝘼𝙎𝙎𝘼𝙉🚩*',
+        STICKER_NAME: '𝘼𝙃𝙈𝘼𝘿🚩',
         MODE: 'public',
         PREFIX: '.',
-        BOT_NAME: '𝐀͢ͱ꧊ϻ͒͜𝛂͜𝛛🚩',
+        BOT_NAME: '𝙃𝘼𝙎𝙎𝘼𝙉🚩',
         BOT_IMAGE: 'https://files.catbox.moe/p4xi2g.jpg',
         
         REACT_EMOJIS:  ['❤️', '🔥', '👑', '⭐', '💎'],
